@@ -11,6 +11,18 @@ import Modal from "../Modal/Modal";
 import "../Sections/blogCard.css";
 import { MdLocalHospital } from "react-icons/md";
 
+// const functions = require('firebase-functions');
+
+
+// Listen for any change on document `marie` in collection `users`
+// exports.myFunctionName = functions.firestore
+//     .document('blogs/lRDopKdQyQVAmtU1gbzRqSCE7T63/reminders/{data}').onCreate((snap, context) => {
+//       // ... Your code here
+// 	  console.log("reminder created!!");
+// 	  console.log(snap.data)
+//     });
+
+
 const Dashboard = () => {
 	const navigate = useNavigate();
 	const [CurrentUser, SetCurrentuser] = useState({});
@@ -39,7 +51,7 @@ const Dashboard = () => {
 		let ids = [];
 		db.collection("blogs")
 			.doc(auth.currentUser?.uid)
-			.collection("blog")
+			.collection("blogs")
 			.onSnapshot((snapshot) => {
 				snapshot.docs.map((doci) => {
 					ids.push(doci.id);

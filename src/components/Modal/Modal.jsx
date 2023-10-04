@@ -15,6 +15,16 @@ const Modal = ({ setOpenModel }) => {
 		time: "",
 	});
 	function uploadRemind() {
+		emailjs.send("service_x61wyzw","template_lt1ya2d",{
+			from_name: "the mothers app",
+			to_name: "username",
+			message: "congratulations on travelling 70% to motherhood!",
+			to_email: "bithuntermaniac@gmail.com",
+			}, "UnRnsiy96B9i1Zwje").then(function(response) {
+			console.log('Email sent successfully:', response);
+		}, function(error) {
+			console.error('Email failed to send:', error);
+		});
 		db.collection("blogs")
 			.doc(auth.currentUser?.uid)
 			.collection("reminders")
