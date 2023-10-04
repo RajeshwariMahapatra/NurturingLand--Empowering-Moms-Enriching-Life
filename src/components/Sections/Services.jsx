@@ -56,15 +56,9 @@ export default function Services() {
 						</ServiceBoxWrapper>
 						<ServiceBoxWrapper>
 							<ServiceBox
-<<<<<<< Updated upstream
-								icon="printer"
-								title="Nutrition Tracker for Parents and Children"
-								subtitle="Track nutrition for both parents and children aged 0-5 years. Get personalized guidance for a healthy family."
-=======
 								icon="apple"
-								title="Easy doctor's appointment"
-								subtitle="We use google maps to get the gynaecologist's location incase of severe period pain or other problems. Select the nearest gynae location and book an appointment with a form."
->>>>>>> Stashed changes
+								title="Nutrition Tracker for Parents and Children"
+								subtitle="Track nutrition for both parents and children aged 0-5 years. Get personalized guidance for a healthy family."	
 							/>
 						</ServiceBoxWrapper>
 					</ServiceBoxRow>
