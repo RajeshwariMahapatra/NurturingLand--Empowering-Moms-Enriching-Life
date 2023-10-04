@@ -37,7 +37,7 @@ const Blog = () => {
 							<div className="card__header">
 								<img
 									onClick={() => navigate(`/blog/${idi[idx]}`)}
-									src="https://mindindia.org/public/uploads/blog/613f08cf0aaa0_tmpphphkkqhm.jpg"
+									src="https://static.vecteezy.com/system/resources/previews/002/800/603/large_2x/pregnant-woman-meditating-at-home-concept-illustration-for-prenatal-yoga-meditation-relax-recreation-healthy-lifestyle-illustration-in-flat-cartoon-style-vector.jpg"
 									alt="card__image"
 									style={{ cursor: "pointer" }}
 									className="card__image img"

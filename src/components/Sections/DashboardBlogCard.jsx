@@ -80,7 +80,7 @@ const DashboardBlogCard = ({ setsize }) => {
 					},
 				}}
 			/>
-			<div className="courses-container">
+			{/* <div className="courses-container">
 				{blogs.map((item, idx) => {
 					return (
 						<div key={idx + 1} className="course" style={{ width: "90%" }}>
@@ -103,7 +103,7 @@ const DashboardBlogCard = ({ setsize }) => {
 						</div>
 					);
 				})}
-			</div>
+			</div> */}
 		</div>
 	);
 };

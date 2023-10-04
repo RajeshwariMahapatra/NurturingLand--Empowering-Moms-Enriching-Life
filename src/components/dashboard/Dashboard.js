@@ -161,7 +161,7 @@ const Dashboard = () => {
 										Mood Tracker
 									</Link>
 									<Link to="/blogform" className="dropdown-item">
-										BLogs
+										Post
 									</Link>
 									<Link to="/profile" className="dropdown-item">
 										Profile
@@ -193,7 +193,7 @@ const Dashboard = () => {
 								</li> */}
 								<li className="nav-item">
 									<Link className="nav-link" to={"/blogform"}>
-										<i className="bi bi-chat"></i> Blogs
+										<i className="bi bi-chat"></i> Post
 										<span className="badge bg-soft-primary text-primary rounded-pill d-inline-flex align-items-center ms-auto">
 											{size}
 										</span>
