@@ -7,7 +7,7 @@ function SvgComponent(props) {
         <path
           data-name="Path 123"
           d="M38.562 24.112H4.778a3.428 3.428 0 01-3.414-3.406V4.776a3.424 3.424 0 013.409-3.412h33.784a3.425 3.425 0 013.41 3.41V20.7a3.425 3.425 0 01-3.407 3.412z"
-          fill="#f40051"
+          fill="#E52F8A"
         />
         <path
           data-name="Path 124"
