@@ -11,6 +11,7 @@ import Login from "./components/login/Login.jsx";
 import UserForm from "./components/Appointment/UserForm.js";
 import BlogForm from "./components/Appointment/Blog_Form.js";
 import Blog from "./components/Blog/Blog.jsx";
+import Blogs from "./components/Blogs/Blogs.jsx"; 
 import BlogShow from "./components/BlogShow/BlogShow.jsx";
 import DashboardBlogCard from "./components/Sections/DashboardBlogCard.jsx";
 import NearClinic from "./components/nearestClinic/nearestClinic.jsx";
@@ -38,6 +39,7 @@ export default function App() {
 					<Route path="/login" element={<Login />} />
 					<Route path="/appointment" element={<UserForm />} />
 					<Route path="/blog" element={<Blog />} />
+					<Route path="/blogs" element={<Blogs />} />
 					<Route path="/blog/:id" element={<BlogShow />} />
 					<Route path="/dashboard/track" element={<TrackPeriod2 />} />
 					<Route path="/blogform" element={<BlogForm />} />

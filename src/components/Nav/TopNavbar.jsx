@@ -71,11 +71,12 @@ export default function TopNavbar() {
 								Health
 							</Link>
 						</li> */}
-						{/* <li className="semiBold font15 pointer hover">
-							<Anc style={{ padding: "10px 15px" , color:"black" }} to="/blog">
+						 <li className="semiBold font15 pointer hover">
+							<Anc 
+							style={{ padding: "10px 15px" , color:"black" }} to="/blogs">
 								Blogs
 							</Anc>
-						</li> */}
+						</li> 
 						<li className="semiBold font15 pointer hover">
 							<Anc
 								style={{ padding: "10px 15px", color: "black" }}
@@ -84,7 +85,13 @@ export default function TopNavbar() {
 								Community
 							</Anc>
 						</li>
-						<li className="semiBold font15 pointer hover">
+						{/* <li className="semiBold font15 pointer hover">
+						<Link to="/blogs" style={{ padding: "10px 15px", color: "black" }}>
+  Blogs
+</Link>
+							
+						</li> */}
+						{/* <li className="semiBold font15 pointer hover">
 							<a
 								style={{ padding: "10px 15px", color: "black" }}
 								target="_blank"
@@ -92,7 +99,7 @@ export default function TopNavbar() {
 							>
 								Donate
 							</a>
-						</li>
+						</li> */}
 						<li className="semiBold font15 pointer hover">
 							<Link
 								activeclassName="active"
