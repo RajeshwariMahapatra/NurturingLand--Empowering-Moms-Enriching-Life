@@ -42,7 +42,7 @@ export default function Projects() {
 							</Link>
 						</div>
 						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-							<Link to={"/"}>
+							<Link to={"/nutrition"}>
 								<ProjectBox
 									img={
 										Nutrition
