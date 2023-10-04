@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
-import LogoImg from "../../assets/svg/Logo";
+import LogoImg from "../../assets/img/logo.png";
 
 export default function Footer() {
 
@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="container">
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
-              <img src="https://user-images.githubusercontent.com/86917304/210371198-dc840422-935e-4712-9cf8-f6b6bbf28792.png" width={90} alt="logo" />
+              <img src={LogoImg} width={90} alt="logo" />
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" , fontSize:"20px" }}>
                 Shewin
               </h1>

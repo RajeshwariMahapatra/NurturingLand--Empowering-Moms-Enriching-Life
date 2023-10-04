@@ -5,10 +5,10 @@ import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+import AddImage1 from "../../assets/img/add/child_vaccine.jpg";
+import AddImage2 from "../../assets/img/add/pregnant.jpeg";
+import AddImage3 from "../../assets/img/add/vaccine.jpeg";
+import AddImage4 from "../../assets/img/add/yoga.jpg";
 import { Link } from "react-router-dom";
 
 export default function Services() {
@@ -24,40 +24,41 @@ export default function Services() {
 					<HeaderInfo>
 						<h1 className="font40 extraBold">Our Helpful Services</h1>
 						<p className="font13">
-							We are stand out as an integrated platform to provide healthcare
-							solutions for deprived and helpless women around the world
+						We stand out as an integrated platform dedicated to providing comprehensive healthcare solutions for mothers and children worldwide.
+						<br />
+						Our platform addresses the critical healthcare needs of mothers and children, making a difference in the lives of disadvantaged and vulnerable families.
+							
 							<br />
-							Our platform can be used in several cases and can impact lives of
-							several young girls.
+							We are committed to ensuring that maternal and child health is accessible to all, regardless of their circumstances.
 						</p>
 					</HeaderInfo>
 					<ServiceBoxRow className="flex">
 						<ServiceBoxWrapper>
 							<ServiceBox
 								icon="roller"
-								title="Blogs on Health & Hygiene"
-								subtitle="Menstrual hygiene is still not discussed openly and many of us feel shy to talk about it, So learn about it from out blogs.You can also contribute your blogs. Check out blogs for more."
+								title="Explore Maternal & Child Health Blogs"
+								subtitle="Join the conversation on vital maternal and child health topics. Read our blogs for valuable insights and feel free to contribute. Visit our blogs section now."
 							/>
 						</ServiceBoxWrapper>
 						<ServiceBoxWrapper>
 							<ServiceBox
 								icon="monitor"
-								title="Mood and Cycle tracker"
-								subtitle="Cycle Tracker provides your 3 month predicted period cycle, So that you can prepare for your period earlier! We provide you a mood analysis and try to control your mood swings by diverting you to memes and jokes. "
+								title="Vaccination Tracker"
+								subtitle="Our Vaccination Tracker offers a 3-month schedule for your child's vaccinations, allowing you to plan ahead effectively. "
 							/>
 						</ServiceBoxWrapper>
 						<ServiceBoxWrapper>
 							<ServiceBox
 								icon="browser"
 								title="Get Notified"
-								subtitle="Sometimes we skip our meals , yoga classes or forget drinking water. Here our notifier will send you emails so that you get prior notifications about the them."
+								subtitle="Our notification system ensures that you never miss a crucial vaccination date for your child. We'll send you timely  reminders to keep you informed and help you prioritize your child's health. Stay on top of your child's vaccination schedule with our helpful notifications."
 							/>
 						</ServiceBoxWrapper>
 						<ServiceBoxWrapper>
 							<ServiceBox
-								icon="printer"
-								title="Easy doctor's appointment"
-								subtitle="We use google maps to get the gynaecologist's location incase of severe period pain or other problems. Select the nearest gynae location and book an appointment with a form."
+								icon="apple"
+								title="Nutrition Tracker for Parents and Children"
+								subtitle="Track nutrition for both parents and children aged 0-5 years. Get personalized guidance for a healthy family."	
 							/>
 						</ServiceBoxWrapper>
 					</ServiceBoxRow>
@@ -69,11 +70,10 @@ export default function Services() {
 								<h4 className="font15 semiBold">
 									Share your stories through us to the world
 								</h4>
-								<h2 className="font40 extraBold">Let's end Period Stigma</h2>
+								<h2 className="font40 extraBold">Let's Break the Silence on Maternal and Child Health</h2>
 								<p className="font12">
-									Sign Up and start contributing your first own blog on health
-									and hygiene. Here at Shewin we respect privacy so you can opt
-									stay anynomous or privately share the story to us .
+								
+Sign up and start contributing your own blogs on maternal and child health. we respect your privacy, so you can choose to remain anonymous or privately share your story with us
 								</p>
 								<ButtonsRow
 									className="flexNullCenter"
@@ -96,17 +96,15 @@ export default function Services() {
 									<div className="flexNullCenter">
 										<AddImgWrapp1 className="flexCenter">
 											<img
-												src={
-													"https://user-images.githubusercontent.com/73426684/211125718-db9bf865-19bc-48cf-ba4d-8ce4772f63ee.jpg"
-												}
+												src={AddImage1}
+												
 												alt="Stop_the_Stigma"
 											/>
 										</AddImgWrapp1>
 										<AddImgWrapp2>
 											<img
-												src={
-													"https://img.freepik.com/free-vector/girl-power-reproductive-system-concept_23-2148658188.jpg?w=1060&t=st=1673055245~exp=1673055845~hmac=db1b2a8914e263895b52c5e91dcadd63e91d589d2ef85a9f30061f9b310161a0"
-												}
+												src={AddImage3}
+												
 												alt="Girl_power"
 											/>
 										</AddImgWrapp2>
@@ -115,7 +113,7 @@ export default function Services() {
 										<AddImgWrapp3>
 											<img
 												src={
-													"https://i.pinimg.com/564x/84/27/2d/84272de2b92637a1508453cf97d82283.jpg"
+													AddImage2
 												}
 												alt="Stop_the_Stigma"
 											/>
@@ -123,7 +121,7 @@ export default function Services() {
 										<AddImgWrapp4>
 											<img
 												src={
-													"https://user-images.githubusercontent.com/73426684/211125598-97104550-8729-4b70-9eed-292edf632379.jpg"
+													AddImage4
 												}
 												alt="Stop_the_Stigma"
 											/>

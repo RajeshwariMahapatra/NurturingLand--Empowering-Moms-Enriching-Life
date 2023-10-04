@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
+import Contactus from "../../assets/img/contact-us.png";
 import ContactImg2 from "../../assets/img/contact-2.png";
 import ContactImg3 from "../../assets/img/contact-3.png";
 import { toast, Toaster } from "react-hot-toast";
@@ -128,7 +128,7 @@ export default function Contact() {
 										width={400}
 										height={400}
 										src={
-											"https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?w=740&t=st=1662890544~exp=1662891144~hmac=3e16c076295cf3cb34003badb796e6c4faa9b559b8aeadf3e10037c644ffd10a"
+											Contactus
 										}
 										alt="office"
 										className="radius6"

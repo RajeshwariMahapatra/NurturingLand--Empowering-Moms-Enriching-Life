@@ -87,7 +87,7 @@ const BlogForm = () => {
 						className: "",
 						duration: 5000,
 						style: {
-							background: "#FA4C86",
+							background: "#9738a4",
 							color: "#fff",
 						},
 
@@ -95,7 +95,7 @@ const BlogForm = () => {
 						success: {
 							duration: 3000,
 							theme: {
-								primary: "#FA4C86",
+								primary: "#9738a4",
 								secondary: "black",
 							},
 						},
@@ -104,7 +104,7 @@ const BlogForm = () => {
 				<div
 					className="container"
 					style={{
-						background: "#FA4C86",
+						background: "#8A4F92",
 						padding: "20px 20px",
 						borderRadius: "15px",
 					}}
@@ -114,7 +114,7 @@ const BlogForm = () => {
 							style={{
 								padding: "7px 20px",
 								background: "white",
-								color: "#E52F8A",
+								color: "#8A4F92",
 								fontWeight: "600",
 								borderRadius: "10px",
 								cursor: "pointer",
@@ -127,8 +127,8 @@ const BlogForm = () => {
 					<div className="card" style={{ width: "45rem" }}>
 						<div className="card-image1">
 							<h2 className="card-heading">
-								Get start with
-								<small>Write Your First Blog!!</small>
+								Get started with
+								<small>Write Your First Post!!</small>
 							</h2>
 						</div>
 						<form className="card-form" onSubmit={handleUserDoc}>
@@ -153,7 +153,7 @@ const BlogForm = () => {
 									}}
 									required
 								/>
-								<label className="input-label">Write your blog</label>
+								<label className="input-label">Write your post</label>
 							</div>
 							<div className="input">
 								<input
@@ -164,10 +164,10 @@ const BlogForm = () => {
 									className="input-field"
 									required
 								/>
-								<label className="input-label">Write Appropiate Tag's</label>
+								<label className="input-label">Write Appropiate Tags</label>
 							</div>
 							<div className="action">
-								<button className="action-button" type="submit">
+								<button className="action-button" type="submit" onClick={handleUserDoc}>
 									Publish
 								</button>
 							</div>

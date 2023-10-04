@@ -81,7 +81,7 @@ export default function TopNavbar() {
 								style={{ padding: "10px 15px", color: "black" }}
 								to="/blog" // changing this to projects or health services
 							>
-								Blogs
+								Community
 							</Anc>
 						</li>
 						<li className="semiBold font15 pointer hover">
