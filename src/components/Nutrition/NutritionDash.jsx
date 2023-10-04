@@ -65,7 +65,10 @@ const NutritionDash = () => {
         <ImageContainer>
         <StyledImage src={Pregnant}/>
         <br />
-        <h2>Mother</h2>
+        <Link to="/nutrition/mom">
+            <h2>Mother</h2>
+        </Link>
+        
         </ImageContainer>
         <ImageContainer>
         <StyledImage src={Child}/>
