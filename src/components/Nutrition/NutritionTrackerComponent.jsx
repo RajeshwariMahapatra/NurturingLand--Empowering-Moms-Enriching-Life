@@ -25,6 +25,8 @@ const Image = styled.img`
   align-items: center;
 `;
 
+
+
 const SubmitButton = styled.button`
   background-color: purple;
   color: white;
@@ -45,6 +47,20 @@ const SubmitButton = styled.button`
     color: purple;
   }
 `;
+const Back = styled.button`
+  border: 1px solid ${(props) => (props.border ? "#793698" : "#793698")};
+  background-color: ${(props) => (props.border ? "transparent" : "#793698")};
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  color: ${(props) => (props.border ? "#A98FC1" : "#fff")};
+  :hover {
+    background-color: ${(props) => (props.border ? "transparent" : "#A98FC1")};
+    border: 1px solid #e0b5d9;
+    color: ${(props) => (props.border ? "#A98FC1" : "#fff")};
+  }
+`;
+
 
 const Title = styled.h1`
   text-align: center;
@@ -136,10 +152,14 @@ const NutritionTrackerComponent = () => {
             <TextInput type="number" id="weight" value={weight} onChange={(e) => setWeight(e.target.value)} />
           </InputGroup>
           <SubmitButton type="submit">Submit</SubmitButton>
+          {/* <Back  >Back</Back> */}
+      
+        
         </UserForm>
         <NutritionStatus status={nutritionStatus}>
           {nutritionStatus && <h2>Status: {nutritionStatus}</h2>}
         </NutritionStatus>
+        {/* <Link to="/dashboard"><Back>Back</Back></Link> */}
       </Wrapper>
       <Image src={Nutrition} alt="Nutrition" />
     </Container>

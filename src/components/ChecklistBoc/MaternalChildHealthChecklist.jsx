@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Pregnant from "./yoga.jpg"
+import {Link} from 'react-router-dom'
 
 const ChecklistContainer = styled.div`
   max-width: 400px;
@@ -28,6 +29,7 @@ margin: 20px;
 
 const Head = styled.div`
     margin: 0;
+    width: 100%;
 `;
 
 const Container = styled.div`
@@ -42,9 +44,23 @@ const MainCon = styled.div`
   align-items: center;
  /* justify-content: space-between; */
  flex-direction: column;
- width: 100%;
+ width: auto;
  /* align-items: center; */
   /* text-align: center; */
+`;
+
+const Wrapper = styled.button`
+  border: 1px solid ${(props) => (props.border ? "#793698" : "#793698")};
+  background-color: ${(props) => (props.border ? "transparent" : "#793698")};
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  color: ${(props) => (props.border ? "#A98FC1" : "#fff")};
+  :hover {
+    background-color: ${(props) => (props.border ? "transparent" : "#A98FC1")};
+    border: 1px solid #e0b5d9;
+    color: ${(props) => (props.border ? "#A98FC1" : "#fff")};
+  }
 `;
 
 
@@ -121,7 +137,12 @@ const MaternalChildHealthChecklist = () => {
     <Imageside src={Pregnant}>
 
     </Imageside>
+   
     </Container>
+    <Link to="/dashboard">
+    <Wrapper>Back</Wrapper>
+    </Link>
+   
     </MainCon>
   );
 };
