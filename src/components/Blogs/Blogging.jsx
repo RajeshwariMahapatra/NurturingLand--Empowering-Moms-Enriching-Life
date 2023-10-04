@@ -13,7 +13,7 @@ const Blogs = () => {
 	const getData = async () => {
 		let temp = [];
 		let ids = [];
-		const querySnapshot = await getDocs(collection(db, "CommunityBlogs"));
+		const querySnapshot = await getDocs(collection(db, "blogging"));
 		querySnapshot.forEach((doc) => {
 			// doc.data() is never undefined for query doc snapshots
 			ids.push(doc.id);

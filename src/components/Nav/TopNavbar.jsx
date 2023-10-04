@@ -73,7 +73,7 @@ export default function TopNavbar() {
 						</li> */}
 						 <li className="semiBold font15 pointer hover">
 							<Anc 
-							style={{ padding: "10px 15px" , color:"black" }} to="/blogs">
+							style={{ padding: "10px 15px" , color:"black" }} to="/blogging">
 								Blogs
 							</Anc>
 						</li> 
