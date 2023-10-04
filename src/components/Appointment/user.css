@@ -10,7 +10,7 @@ img {
 	display: block;
 }
 input {
-	appearance: none;
+	appearance: auto;
 	border-radius: 0;
 }
 .card {
