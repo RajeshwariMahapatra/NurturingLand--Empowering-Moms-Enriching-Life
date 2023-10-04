@@ -62,7 +62,7 @@ const SignUp = () => {
 		<div className="bg">
 			<div className="signup">
 				<div className="signup-connect">
-					<h1 style={{ color: "#E73B91" }}>Login with Google</h1>
+					<h1 style={{ color: "#793698" }}>Login with Google</h1>
 					<a href="#" className="btn btn-google" onClick={googleLogin}>
 						<FaGoogle style={{ marginRight: "10px" }} /> Sign in with Google
 					</a>

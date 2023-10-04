@@ -97,13 +97,11 @@ const NearHospital = () => {
 
 			{/* <!-- Banner --> */}
 			<a
-				href="https://donate.stripe.com/test_eVa8xv6m603J4Za148"
-				target={"_blank"}
+				href=""
 				className="btn w-full btn-primary text-truncate rounded-0 border-0 position-relative"
-				style={{ zIndex: "1000", background: "#E52F8A", marginTop: "0px" }}
+				style={{ zIndex: "1000", background: "purple", marginTop: "0px" }}
 			>
-				<strong>Heya Shewinner : : </strong> Let's contribute to the
-				community donate now →
+				<strong>Hey There!</strong> Welcome to NurturingLand. <br />Let's Get Started →
 			</a>
 
 			{/* <!-- Dashboard --> */}
@@ -145,7 +143,7 @@ const NearHospital = () => {
 									fontWeight: "700",
 									paddingLeft: "50px",
 									marginTop: "20px",
-									color: "#F65AA8",
+									color: "purple",
 									textAlign: "center",
 								}}
 							>
@@ -183,11 +181,11 @@ const NearHospital = () => {
 										Home
 									</Link>
 									<Link to="/track" className="dropdown-item">
-										Period Tracker
+										Vaccine Tracker
 									</Link>
-									<Link to="/moodtracker" className="dropdown-item">
+									{/* <Link to="/moodtracker" className="dropdown-item">
 										Mood Tracker
-									</Link>
+									</Link> */}
 									<Link to="/blogform" className="dropdown-item">
 										BLogs
 									</Link>
@@ -217,11 +215,11 @@ const NearHospital = () => {
 										<i className="bi bi-house"></i> Home
 									</Link>
 								</li>
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link className="nav-link" to="/moodtracker">
 										<i className="bi bi-bar-chart"></i> Mood Tracker
 									</Link>
-								</li>
+								</li> */}
 								<li className="nav-item">
 									<Link className="nav-link" to={"/blogform"}>
 										<i className="bi bi-chat"></i> Blogs
@@ -232,7 +230,7 @@ const NearHospital = () => {
 								</li>
 								<li className="nav-item">
 									<Link className="nav-link" to="/track">
-										<i className="bi bi-bookmarks"></i> Period Tracker
+										<i className="bi bi-bookmarks"></i> Vaccine Tracker
 									</Link>
 								</li>
 								<li className="nav-item">
@@ -247,11 +245,11 @@ const NearHospital = () => {
 										Hospital
 									</Link>
 								</li>
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link className="nav-link" to={"/moodybot"}>
 										<i className="bi bi-emoji-smile"></i> Moody Bot
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 							{/* <!-- Divider --> */}
 							<hr className="navbar-divider my-5 opacity-20" />
@@ -385,8 +383,8 @@ const NearHospital = () => {
 										{/* <!-- Title --> */}
 										<h1
 											className="h2 mb-0 ls-tight"
-											style={{ color: "#5C60F5" }}
-										>{`Hello , ${CurrentUser?.displayName?.toLowerCase()}`}</h1>
+											style={{ color: "black" }}
+										>{`Hello , ${CurrentUser?.displayName?.toUpperCase()}`}</h1>
 									</div>
 									{/* <!-- Actions --> */}
 									<div className="col-sm-6 col-12 text-sm-end">
@@ -395,7 +393,7 @@ const NearHospital = () => {
 												onClick={() => setOpenModel(true)}
 												className="btn d-inline-flex btn-sm btn-primary mx-1"
 												style={{
-													background: "#F65AA8",
+													background: "purple",
 													color: "white",
 													border: "none",
 												}}

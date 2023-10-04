@@ -10,6 +10,7 @@ import DashboardBlogCard from "../Sections/DashboardBlogCard";
 import Modal from "../Modal/Modal";
 import "../Sections/blogCard.css";
 import { MdLocalHospital } from "react-icons/md";
+import NutritionDash from "../Nutrition/NutritionDash";
 
 // const functions = require('firebase-functions');
 
@@ -78,12 +79,11 @@ const Dashboard = () => {
 			</Helmet>
 			{/* <!-- Banner --> */}
 			<a
-				href="https://donate.stripe.com/test_eVa8xv6m603J4Za148"
+				href=""
 				className="btn w-full btn-primary text-truncate rounded-0 border-0 position-relative"
-				style={{ zIndex: "1000", background: "#E52F8A", marginTop: "0px" }}
+				style={{ zIndex: "1000", background: "purple", marginTop: "0px" }}
 			>
-				<strong>Heya Shewinner : : </strong> Let's contribute to the community
-				donate now →
+				<strong>Hey There!</strong> Welcome to NurturingLand. <br />Let's Get Started →
 			</a>
 
 			{/* <!-- Dashboard --> */}
@@ -125,7 +125,7 @@ const Dashboard = () => {
 									fontWeight: "700",
 									paddingLeft: "50px",
 									marginTop: "20px",
-									color: "#F65AA8",
+									color: "purple",
 									textAlign: "center",
 								}}
 							>
@@ -167,11 +167,11 @@ const Dashboard = () => {
 										Home
 									</Link>
 									<Link to="/track" className="dropdown-item">
-										Period Tracker
+										Vaccine Tracker
 									</Link>
-									<Link to="/moodtracker" className="dropdown-item">
-										Mood Tracker
-									</Link>
+									<Link to={"/nutrition"} className="dropdown-item">
+										Nutrition Tracker
+									</Link> 
 									<Link to="/blogform" className="dropdown-item">
 										Post
 									</Link>
@@ -198,11 +198,11 @@ const Dashboard = () => {
 										<i className="bi bi-house"></i> Home
 									</Link>
 								</li>
-								{/* <li className="nav-item">
-									<Link className="nav-link" to="/moodtracker">
-										<i className="bi bi-bar-chart"></i> Mood Tracker
+								 <li className="nav-item">
+									<Link className="nav-link" to="/nutrition">
+										<i className="bi bi-bar-chart"></i> Nutrition Tracker
 									</Link>
-								</li> */}
+								</li> 
 								<li className="nav-item">
 									<Link className="nav-link" to={"/blogform"}>
 										<i className="bi bi-chat"></i> Post
@@ -213,7 +213,7 @@ const Dashboard = () => {
 								</li>
 								<li className="nav-item">
 									<Link className="nav-link" to="/track">
-										<i className="bi bi-bookmarks"></i> Period Tracker
+										<i className="bi bi-bookmarks"></i> Vaccine Tracker
 									</Link>
 								</li>
 								<li className="nav-item">
@@ -226,11 +226,11 @@ const Dashboard = () => {
 										<i className="bi bi-file-medical"></i> Nearest Hospital
 									</Link>
 								</li>
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link className="nav-link" to={"/moodybot"}>
 										<i className="bi bi-emoji-smile"></i> Moody Bot
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 							{/* <!-- Divider --> */}
 							<hr className="navbar-divider my-5 opacity-20" />
@@ -355,8 +355,8 @@ const Dashboard = () => {
 										{/* <!-- Title --> */}
 										<h1
 											className="h2 mb-0 ls-tight"
-											style={{ color: "#5C60F5" }}
-										>{`Hello , ${CurrentUser?.displayName?.toLowerCase()}`}</h1>
+											style={{ color: "darkpurple" }}
+										>{`HELLO , ${CurrentUser?.displayName?.toUpperCase()}`}</h1>
 									</div>
 									{/* <!-- Actions --> */}
 									<div className="col-sm-6 col-12 text-sm-end">
@@ -365,7 +365,7 @@ const Dashboard = () => {
 												onClick={() => setOpenModel(true)}
 												className="btn d-inline-flex btn-sm btn-primary mx-1"
 												style={{
-													background: "#F65AA8",
+													background: "purple",
 													color: "white",
 													border: "none",
 												}}
@@ -494,7 +494,7 @@ const Dashboard = () => {
 											<div className="row">
 												<div className="col">
 													<span className="h6 font-semibold text-muted text-sm d-block mb-2">
-														Upcoming Period
+														Upcoming Vaccine
 													</span>
 													<span className="h3 font-bold mb-0">25</span>
 												</div>

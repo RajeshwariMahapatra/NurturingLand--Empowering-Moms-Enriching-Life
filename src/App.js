@@ -11,12 +11,14 @@ import Login from "./components/login/Login.jsx";
 import UserForm from "./components/Appointment/UserForm.js";
 import BlogForm from "./components/Appointment/Blog_Form.js";
 import Blog from "./components/Blog/Blog.jsx";
+import Blogging from "./components/Blogs/Blogging.jsx"; 
 import BlogShow from "./components/BlogShow/BlogShow.jsx";
 import DashboardBlogCard from "./components/Sections/DashboardBlogCard.jsx";
 import NearClinic from "./components/nearestClinic/nearestClinic.jsx";
 import NearHospital from "./components/nearestHospital/nearestHospital.jsx";
 import MoodyBot from "./components/moodyBot.jsx";
 import NutritionTracker from "./components/Nutrition/NutritionTracker.jsx";
+import NutritionTrackerMom from "./components/Nutrition/NutritionTrackerMom.jsx";
 import NutritionDash from "./components/Nutrition/NutritionDash.jsx";
 
 export default function App() {
@@ -38,10 +40,12 @@ export default function App() {
 					<Route path="/track" element={<TrackPeriod />} />
 					<Route path="/nutrition" element={<NutritionDash />} />
 					<Route path="/nutrition/kid" element={<NutritionTracker />} />
+					<Route path="/nutrition/mom" element={<NutritionTrackerMom />} /> 
 					<Route path="/signup" element={<SignUp />} />
 					<Route path="/login" element={<Login />} />
 					<Route path="/appointment" element={<UserForm />} />
 					<Route path="/blog" element={<Blog />} />
+					<Route path="/blogging" element={<Blogging />} />
 					<Route path="/blog/:id" element={<BlogShow />} />
 					<Route path="/dashboard/track" element={<TrackPeriod2 />} />
 					<Route path="/blogform" element={<BlogForm />} />

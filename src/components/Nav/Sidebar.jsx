@@ -80,7 +80,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
 						Blog
 					</Anc>
 				</li>
-				<li className="semiBold font15 pointer">
+				{/* <li className="semiBold font15 pointer">
 					<Anc
 						onClick={() => toggleSidebar(!sidebarOpen)}
 						className="whiteColor"
@@ -89,7 +89,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
 					>
 						Donate
 					</Anc>
-				</li>
+				</li> */}
 				<li className="semiBold font15 pointer">
 					<Link
 						onClick={() => toggleSidebar(!sidebarOpen)}
