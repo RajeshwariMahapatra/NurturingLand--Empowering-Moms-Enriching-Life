@@ -6,7 +6,7 @@ import MonitorIcon from "../../assets/svg/Services/MonitorIcon";
 import BrowserIcon from "../../assets/svg/Services/BrowserIcon";
 import PrinterIcon from "../../assets/svg/Services/PrinterIcon";
 import {MdScreenShare , MdTrackChanges,MdVolunteerActivism} from 'react-icons/md';
-import {FaNetworkWired ,FaBlogger, FaBuilding} from 'react-icons/fa';
+import {FaNetworkWired ,FaBlogger, FaApple} from 'react-icons/fa';
 import {BsFillPatchExclamationFill} from 'react-icons/bs';
 
 export default function ServiceBox({icon, title, subtitle}) {
@@ -22,8 +22,8 @@ export default function ServiceBox({icon, title, subtitle}) {
     case "browser":
       getIcon = <BsFillPatchExclamationFill size={50} color={"#E52F8A"} />;
       break;
-    case "printer":
-      getIcon = <MdVolunteerActivism size={50} color={"#E52F8A"} />;
+    case "apple":
+      getIcon =  <FaApple size={50} color={"#E52F8A"} />;
       break;
     default:
       getIcon = <MdScreenShare size={50} color={"#E52F8A"} />;
