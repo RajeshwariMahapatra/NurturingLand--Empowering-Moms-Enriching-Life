@@ -10,6 +10,7 @@ import DashboardBlogCard from "../Sections/DashboardBlogCard";
 import Modal from "../Modal/Modal";
 import "../Sections/blogCard.css";
 import { MdLocalHospital } from "react-icons/md";
+import NutritionDash from "../Nutrition/NutritionDash";
 
 const Dashboard = () => {
 	const navigate = useNavigate();
@@ -156,9 +157,9 @@ const Dashboard = () => {
 									<Link to="/track" className="dropdown-item">
 										Vaccine Tracker
 									</Link>
-									<Link to="/moodtracker" className="dropdown-item">
-										Mood Tracker
-									</Link>
+									<Link to={"/nutrition"} className="dropdown-item">
+										Nutrition Tracker
+									</Link> 
 									<Link to="/blogform" className="dropdown-item">
 										Post
 									</Link>
@@ -185,11 +186,11 @@ const Dashboard = () => {
 										<i className="bi bi-house"></i> Home
 									</Link>
 								</li>
-								{/* <li className="nav-item">
-									<Link className="nav-link" to="/moodtracker">
-										<i className="bi bi-bar-chart"></i> Mood Tracker
+								 <li className="nav-item">
+									<Link className="nav-link" to="/nutrition">
+										<i className="bi bi-bar-chart"></i> Nutrition Tracker
 									</Link>
-								</li> */}
+								</li> 
 								<li className="nav-item">
 									<Link className="nav-link" to={"/blogform"}>
 										<i className="bi bi-chat"></i> Post
@@ -213,11 +214,11 @@ const Dashboard = () => {
 										<i className="bi bi-file-medical"></i> Nearest Hospital
 									</Link>
 								</li>
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link className="nav-link" to={"/moodybot"}>
 										<i className="bi bi-emoji-smile"></i> Moody Bot
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 							{/* <!-- Divider --> */}
 							<hr className="navbar-divider my-5 opacity-20" />

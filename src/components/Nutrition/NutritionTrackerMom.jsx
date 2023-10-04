@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import NutritionChart from './NutritionChart';
+import LineChart from './LineChart';
 
 const Wrapper = styled.div`
   max-width: 800px;
@@ -48,6 +48,7 @@ const Button = styled.button`
 const NutritionTrackerMom = () => {
   const [calories, setCalories] = useState('');
   const [protein, setProtein] = useState('');
+  const [date, setDate] = useState('');
   const [statusData, setStatusData] = useState({
     labels: ['Status'],
     datasets: [
@@ -80,6 +81,17 @@ const NutritionTrackerMom = () => {
       <Title>Nutrition Tracker for Mom</Title>
 
       <Section>
+        <Title>Date</Title>
+        <InputGroup>
+          <TextInput
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+          />
+        </InputGroup>
+      </Section>
+
+      <Section>
         <Title>Calories</Title>
         <InputGroup>
           <TextInput
@@ -105,7 +117,8 @@ const NutritionTrackerMom = () => {
 
       <Button onClick={handleSave}>Save</Button>
 
-      <NutritionChart statusData={statusData} />
+      {/* Add the LineChart component with the appropriate props */}
+      <LineChart statusData={statusData} />
     </Wrapper>
   );
 };
