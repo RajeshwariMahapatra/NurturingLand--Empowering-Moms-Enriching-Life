@@ -17,6 +17,8 @@ import DashboardBlogCard from "./components/Sections/DashboardBlogCard.jsx";
 import NearClinic from "./components/nearestClinic/nearestClinic.jsx";
 import NearHospital from "./components/nearestHospital/nearestHospital.jsx";
 import MoodyBot from "./components/moodyBot.jsx";
+import NutritionTracker from "./components/Nutrition/NutritionTracker.jsx";
+import NutritionDash from "./components/Nutrition/NutritionDash.jsx";
 
 export default function App() {
 	return (
@@ -35,6 +37,8 @@ export default function App() {
 					<Route path="/" element={<Landing />} />
 					<Route path="/dashboard" element={<Dashboard />} />
 					<Route path="/track" element={<TrackPeriod />} />
+					<Route path="/nutrition" element={<NutritionDash />} />
+					<Route path="/nutrition/kid" element={<NutritionTracker />} />
 					<Route path="/signup" element={<SignUp />} />
 					<Route path="/login" element={<Login />} />
 					<Route path="/appointment" element={<UserForm />} />
