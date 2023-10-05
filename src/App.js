@@ -17,9 +17,10 @@ import DashboardBlogCard from "./components/Sections/DashboardBlogCard.jsx";
 import NearClinic from "./components/nearestClinic/nearestClinic.jsx";
 import NearHospital from "./components/nearestHospital/nearestHospital.jsx";
 import MoodyBot from "./components/moodyBot.jsx";
-import NutritionTracker from "./components/Nutrition/NutritionTracker.jsx";
+import NutritionTracker from "./components/Nutrition/NutritionTrackerComponent.jsx";
 import NutritionTrackerMom from "./components/Nutrition/NutritionTrackerMom.jsx";
 import NutritionDash from "./components/Nutrition/NutritionDash.jsx";
+import MaternalChildHealthChecklist from "./components/ChecklistBoc/MaternalChildHealthChecklist.jsx";
 
 export default function App() {
 	return (
@@ -52,7 +53,7 @@ export default function App() {
 					<Route path="/dash" element={<DashboardBlogCard />} />
 					<Route path="/nearclinic" element={<NearClinic />} />
 					<Route path="/nearhospital" element={<NearHospital />} />
-					<Route path="/moodybot" element={<MoodyBot />} />
+					<Route path="/checklist" element={<MaternalChildHealthChecklist />} />
 				</Routes>
 			</BrowserRouter>
 		</>
