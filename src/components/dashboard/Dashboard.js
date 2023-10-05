@@ -90,7 +90,7 @@ const Dashboard = () => {
 	return (
 		<>
 			<Helmet>
-				<title>{`Shewin | ${CurrentUser?.displayName} Dashboard`}</title>
+				<title>{`NuturingLand | ${CurrentUser?.displayName} Dashboard`}</title>
 			</Helmet>
 			{/* <!-- Banner --> */}
 			<a
