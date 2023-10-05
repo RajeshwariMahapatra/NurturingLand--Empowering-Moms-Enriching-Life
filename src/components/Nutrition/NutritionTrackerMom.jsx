@@ -8,6 +8,7 @@ import { data } from 'jquery';
 import HydrationTracker from './Hydration/HydrationTracker';
 import RecipeAnalyzer from './Recipe/RecipeAnalyzer';
 import "./styles/Water.css"
+import TopNavbar from '../Nav/TopNavbar';
 
 // const Wrapper = styled.div`
 //   max-width: 800px;
@@ -150,7 +151,9 @@ const NutritionTrackerMom = () => {
     //   {/* Add the LineChart component with the appropriate props */}
     //   <LineChart statusData={statusData} />
     // </Wrapper>  
+   
     <div className='main'>
+      <TopNavbar></TopNavbar>
     <h1>Keep a track of your health!</h1>
     <div className='content'>
     

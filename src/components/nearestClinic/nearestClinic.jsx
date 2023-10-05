@@ -379,7 +379,7 @@ const NearClinic = () => {
 								<ul className="nav nav-tabs mt-4 overflow-x border-0">
 									<li className="nav-item ">
 										<a href="#" className="nav-link active">
-											Nearest Phramacy
+											Nearest Pharmacy
 										</a>
 									</li>
 									{/* <li className="nav-item">

@@ -68,7 +68,7 @@ const RecipeAnalyzer = () => {
 
   return (
     <div className='box-recipe'>
-        <h2>Analyze your recipe</h2>
+        <h2>Analyze your recipe &#127857;</h2>
       <textarea
         rows="10"
         cols="50"

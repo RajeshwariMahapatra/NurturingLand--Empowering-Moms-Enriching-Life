@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Pregnant from "./pregnant.jpeg";
 import Child from "./baby.png"
+import TopNavbar from '../Nav/TopNavbar';
 
 const Wrapper = styled.div`
   display: flex;
@@ -45,7 +46,9 @@ const StyledImage = styled.img`
   border-radius: 50%;
 `;
 const Title = styled.h1`
+margin-top: 50px;
 padding:40px;
+font-size: 60px;
 
 /* background-color: purple;
 color: white; */
@@ -56,8 +59,9 @@ color: white; */
 const NutritionDash = () => {
   return (
     <Container>
+        <TopNavbar />
         <Title>
-            <h1>Nutrition Tracker </h1>
+            Nutrition Tracker 
         </Title>
   
     

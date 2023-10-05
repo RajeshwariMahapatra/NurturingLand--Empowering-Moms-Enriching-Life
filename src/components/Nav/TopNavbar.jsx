@@ -164,7 +164,7 @@ const NavInner = styled.div`
 const BurderWrapper = styled.button`
 	outline: none;
 	border: 0px;
-	background-color: transparent;
+	background-color: lavender;
 	height: 100%;
 	padding: 0 15px;
 	display: none;

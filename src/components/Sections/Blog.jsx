@@ -111,11 +111,10 @@ export default function Blog() {
 			<div className="lightBg" style={{ padding: "50px 0" }}>
 				<div className="container">
 					<HeaderInfo>
-						<h1 className="font40 extraBold">Doctor Says</h1>
+						<h1 className="font40 extraBold">Medical Insights</h1>
 						<p className="font13">
-							Periods are also stigmatized.
-							<br />A 2002 study found that people reported greater feelings of
-							negativity toward a woman if they knew she was menstruating.
+							Pregnancy 
+							<br />During pregnancy, a woman's body undergoes incredible changes to support the growth and development of the baby. From the moment of conception, the body starts producing hormones like progesterone and estrogen to create a nurturing environment for the fetus. As the pregnancy progresses, the baby's organs and systems begin to form, and the mother experiences physical and emotional changes.
 						</p>
 					</HeaderInfo>
 					<TestimonialSlider />

@@ -11,6 +11,8 @@ import Modal from "../Modal/Modal";
 import "../Sections/blogCard.css";
 import { MdLocalHospital } from "react-icons/md";
 import NutritionDash from "../Nutrition/NutritionDash";
+import { FaCalendar } from 'react-icons/fa';
+
 
 // const functions = require('firebase-functions');
 
@@ -249,7 +251,7 @@ const Dashboard = () => {
 
 								<li className="nav-item">
 									<Link className="nav-link" to={"/appointment"}>
-										<i className="bi bi-emoji-clock"></i> Appointments
+										<i className={FaCalendar}></i> Appointments
 									</Link>
 								</li>
 
@@ -403,7 +405,9 @@ const Dashboard = () => {
 											</button>
 
 											<button
-												onClick={()=>{emailRemind()}}
+												onClick={()=>{emailRemind();
+													alert('Notified!');
+												}}
 												className="btn d-inline-flex btn-sm btn-primary mx-1"
 												style={{
 													background: "red",
