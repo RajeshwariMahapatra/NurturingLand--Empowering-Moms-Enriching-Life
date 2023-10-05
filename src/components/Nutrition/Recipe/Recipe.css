@@ -1,0 +1,11 @@
+.box-recipe{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+.box-recipe h2{
+    color: purple;
+}
+.text-area ::placeholder{
+    padding-left: 10px;
+}
