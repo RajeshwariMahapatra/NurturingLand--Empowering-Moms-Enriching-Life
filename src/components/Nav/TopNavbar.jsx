@@ -51,14 +51,14 @@ export default function TopNavbar() {
 								About
 							</Link>
 						</li>
-						<li className="semiBold font15 pointer hover">
+						{/* <li className="semiBold font15 pointer hover">
 							<Anc
 								style={{ padding: "10px 15px", color: "black" }}
 								to="/nutrition" // changing this to projects or health services
 							>
 								Trackers
 							</Anc>
-						</li>
+						</li> */}
 						{/* <li className="semiBold font15 pointer hover">
 							<Link
 								activeclassName="active"

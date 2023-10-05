@@ -72,6 +72,8 @@ const Dashboard = () => {
 		};
 	}, []);
 
+	const [showChecklist, setShowChecklist] = useState(false);
+
 	return (
 		<>
 			<Helmet>
@@ -226,11 +228,13 @@ const Dashboard = () => {
 										<i className="bi bi-file-medical"></i> Nearest Hospital
 									</Link>
 								</li>
-								{/* <li className="nav-item">
-									<Link className="nav-link" to={"/moodybot"}>
-										<i className="bi bi-emoji-smile"></i> Moody Bot
+								<li className="nav-item">
+									<Link className="nav-link" to={"/checklist"}>
+										<i className="bi bi-emoji-smile"></i> Checklist
 									</Link>
-								</li> */}
+								</li> 
+
+								
 							</ul>
 							{/* <!-- Divider --> */}
 							<hr className="navbar-divider my-5 opacity-20" />
