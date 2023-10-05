@@ -19,11 +19,11 @@ export default function Footer() {
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <img src={LogoImg} width={90} alt="logo" />
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" , fontSize:"20px" }}>
-                Shewin
+                NurturingLand
               </h1>
             </Link>
             <StyleP className="whiteColor font15">
-              © {getCurrentYear()} - <span className="purpleColor font15" style={{cursor:"pointer"}}>Shewin</span> All Right Reserved
+              © {getCurrentYear()} - <span className="purpleColor font15" style={{cursor:"pointer"}}>NurturingLand</span> All Right Reserved
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
