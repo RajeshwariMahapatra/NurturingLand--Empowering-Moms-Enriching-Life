@@ -62,10 +62,13 @@ const Back = styled.button`
 `;
 
 
-const Title = styled.h1`
+const Title = styled.div`
+h1{}
   text-align: center;
   margin-bottom: 20px;
   color: #333;
+  align-items: center;
+  color: purple;
 `;
 
 const UserForm = styled.form`
@@ -133,7 +136,7 @@ const NutritionTrackerComponent = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Nutrition Tracker</Title>
+        <Title><h1>Nutrition Tracker</h1></Title>
         <UserForm onSubmit={handleSubmit}>
           <InputGroup>
             <Label htmlFor="gender">Gender:</Label>
