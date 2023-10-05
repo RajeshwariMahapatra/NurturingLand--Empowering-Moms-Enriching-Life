@@ -33,21 +33,21 @@ export default function TestimonialSlider() {
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Some of the most persistent misconceptions about periods are that irregularity every month is normal, that super-heavy cycles are just part of “the curse,” that severe period pain is something everyone with a period experiences, and that you can’t get pregnant while menstruating. None of these are true."
-            author="Dr. Geri Hewitt"
+            text="During pregnancy, a woman's body undergoes incredible changes to support the growth and development of the baby. From the moment of conception, the body starts producing hormones like progesterone and estrogen to create a nurturing environment for the fetus. As the pregnancy progresses, the baby's organs and systems begin to form, and the mother experiences physical and emotional changes."
+            author="Dr. Sarah Johnson"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="It is important for clinicians to have an understanding of the menstrual patterns of adolescent girls, the ability to differentiate between normal and abnormal menstruation, and the skill to know how to evaluate the adolescent girl patient, Regular cycles with the absence of excessive bleeding and/or pain are signs of wellness."
-            author="Dr. Geri Hewitt"
+            text="As a doctor, I've witnessed countless miracles, but none compare to the miracle of life growing inside a woman."
+            author=" Dr. Olivia Adams"
 
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="For decades, the connection between menstruation and overall health was largely unrecognized. Primary caregivers and other non-OB-GYN physicians did not routinely ask about period details. Women didn’t always know how or when to bring period issues to doctors."
-            author="Dr Starre Julia Vartan"
+            text="Your body is crafting a masterpiece. Trust the process, trust yourself, and let nature's artistry unfold."
+            author="Dr. Benjamin Davis"
 
           />
         </LogoWrapper>
