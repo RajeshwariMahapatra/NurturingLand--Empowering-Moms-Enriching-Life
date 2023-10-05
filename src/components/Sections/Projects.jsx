@@ -31,7 +31,7 @@ export default function Projects() {
 					</HeaderInfo>
 					<div className="row textCenter">
 						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-							<Link to={"/appointment"}>
+							{/* <Link to={"/appointment"}> */}
 								<ProjectBox
 									img={
 										Gynaec
@@ -39,10 +39,10 @@ export default function Projects() {
 									title="Get Gynaecologist's care"
 									text="Take an appointment from the nearest gynaecologist"
 								/>
-							</Link>
+							{/* </Link> */}
 						</div>
 						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-							<Link to={"/nutrition"}>
+							{/* <Link to={"/nutrition"}> */}
 								<ProjectBox
 									img={
 										Nutrition
@@ -50,19 +50,19 @@ export default function Projects() {
 									title="Nutrition Status"
 									text="Get to the nearest medical store for pills or pads"
 								/>
-							</Link>
+							{/* </Link> */}
 						</div>
 						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-							<Link to={"/track"}>
+							{/* <Link to={"/track"}> */}
 								<ProjectBox
 									img={Vaccine}
 									title="Vaccine Tracker"
 									text="Get an complete details of your period cycles, mood swings ,diet chart and sleep cycle "
 								/>
-							</Link>
+							{/* </Link> */}
 						</div>
 						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-							<Link to={"/signup"}>
+							{/* <Link to={"/signup"}> */}
 								<ProjectBox
 									img={
 										ChildGrowth
@@ -70,7 +70,7 @@ export default function Projects() {
 									title="Child Growth"
 									text="Get an complete details of your period cycles, mood swings , diet chart and sleep cycle "
 								/>
-							</Link>
+							{/* </Link> */}
 						</div>
 					</div>
 				</div>

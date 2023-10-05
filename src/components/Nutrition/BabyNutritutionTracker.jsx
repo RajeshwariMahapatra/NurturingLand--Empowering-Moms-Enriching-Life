@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
+import Nutrition from './nutrition-color.png';
 
 const TrackerContainer = styled.div`
-  max-width: 600px;
-  margin: 0 auto;
+  /* max-width: 600px;
+  margin: 0 auto; */
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100vh;
 `;
 
 const Title = styled.h1`
   text-align: center;
   color: purple;
+  font-size: 50px;
 `;
 
 const InputContainer = styled.div`
@@ -40,6 +47,23 @@ const NutritionInfo = styled.div`
 const FoodRecommendation = styled.p`
   color: ${(props) => props.color};
 `;
+
+const ImageSide = styled.img`
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  `;
+
+  const MainCon = styled.div`
+    display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px;
+  width: 100%;
+  `;
 
 const BabyNutritionTracker = () => {
   const [weight, setWeight] = useState('');
@@ -76,6 +100,7 @@ const BabyNutritionTracker = () => {
   };
 
   return (
+    <MainCon>
     <TrackerContainer>
       <Title>Baby Nutrition Tracker</Title>
 
@@ -111,6 +136,9 @@ const BabyNutritionTracker = () => {
         </NutritionInfo>
       )}
     </TrackerContainer>
+    <ImageSide src={Nutrition}>
+    </ImageSide>
+    </MainCon>
   );
 };
 
