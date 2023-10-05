@@ -46,6 +46,7 @@ const StyledImage = styled.img`
 `;
 const Title = styled.h1`
 padding:40px;
+
 /* background-color: purple;
 color: white; */
 `;

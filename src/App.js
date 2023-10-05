@@ -21,6 +21,7 @@ import NutritionTracker from "./components/Nutrition/NutritionTrackerComponent.j
 import NutritionTrackerMom from "./components/Nutrition/NutritionTrackerMom.jsx";
 import NutritionDash from "./components/Nutrition/NutritionDash.jsx";
 import MaternalChildHealthChecklist from "./components/ChecklistBoc/MaternalChildHealthChecklist.jsx";
+import BabyNutritionTracker from "./components/Nutrition/BabyNutritutionTracker.jsx";
 
 export default function App() {
 	return (
@@ -40,7 +41,9 @@ export default function App() {
 					<Route path="/dashboard" element={<Dashboard />} />
 					<Route path="/track" element={<VaccineTracker />} />
 					<Route path="/nutrition" element={<NutritionDash />} />
-					<Route path="/nutrition/kid" element={<NutritionTracker />} />
+					{/* <Route path="/nutrition/kid" element={<NutritionTracker />} /> */}
+					<Route path="/nutrition/kid" element={<BabyNutritionTracker />} />
+
 					<Route path="/nutrition/mom" element={<NutritionTrackerMom />} /> 
 					<Route path="/signup" element={<SignUp />} />
 					<Route path="/login" element={<Login />} />
