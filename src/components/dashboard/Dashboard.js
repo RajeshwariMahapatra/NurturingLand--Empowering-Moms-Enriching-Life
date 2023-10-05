@@ -388,6 +388,20 @@ const Dashboard = () => {
 												</span>
 												<span>Create Reminder</span>
 											</button>
+
+											<button
+												onClick={()=>{}}
+												className="btn d-inline-flex btn-sm btn-primary mx-1"
+												style={{
+													background: "red",
+													color: "white",
+													border: "none",
+												}}
+											>
+												<span className=" pe-2">
+												</span>
+												<span>Alert!</span>
+											</button>
 										</div>
 									</div>
 								</div>
