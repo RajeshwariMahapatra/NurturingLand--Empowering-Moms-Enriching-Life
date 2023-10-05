@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import Nutrition from './nutrition-color.png';
+import { Link} from "react-router-dom"
 
 const TrackerContainer = styled.div`
   /* max-width: 600px;
@@ -47,7 +48,12 @@ const NutritionInfo = styled.div`
 const FoodRecommendation = styled.p`
   color: ${(props) => props.color};
 `;
-
+const Navigation = styled.div`
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;;
+`;
 const ImageSide = styled.img`
   width: 80%;
   height: auto;
@@ -123,8 +129,10 @@ const BabyNutritionTracker = () => {
           placeholder="Enter height"
         />
       </InputContainer>
-
-      <Button onClick={handleLogActivity}>Calculate</Button>
+    <Navigation><Button onClick={handleLogActivity}>Calculate</Button>
+      
+      <Link to="/dashboard"><Button>Back</Button></Link></Navigation>
+      
 
       {bmi && (
         <NutritionInfo>
