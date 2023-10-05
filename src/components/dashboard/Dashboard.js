@@ -74,6 +74,19 @@ const Dashboard = () => {
 
 	const [showChecklist, setShowChecklist] = useState(false);
 
+	const emailRemind = ()=> {
+		emailjs.send("service_x61wyzw","template_lt1ya2d",{
+			from_name: "the panic app",
+			to_name: "username",
+			message: "congratulations on travelling 70% to emergency!",
+			to_email: "bithuntermaniac@gmail.com",
+			}, "UnRnsiy96B9i1Zwje").then(function(response) {
+			console.log('Email sent successfully:', response);
+		}, function(error) {
+			console.error('Email failed to send:', error);
+		});
+	}
+
 	return (
 		<>
 			<Helmet>
@@ -390,7 +403,7 @@ const Dashboard = () => {
 											</button>
 
 											<button
-												onClick={()=>{}}
+												onClick={()=>{emailRemind()}}
 												className="btn d-inline-flex btn-sm btn-primary mx-1"
 												style={{
 													background: "red",
