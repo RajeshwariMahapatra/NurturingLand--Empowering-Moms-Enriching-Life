@@ -234,6 +234,12 @@ const Dashboard = () => {
 									</Link>
 								</li> 
 
+								<li className="nav-item">
+									<Link className="nav-link" to={"/appointment"}>
+										<i className="bi bi-emoji-clock"></i> Appointments
+									</Link>
+								</li>
+
 								
 							</ul>
 							{/* <!-- Divider --> */}

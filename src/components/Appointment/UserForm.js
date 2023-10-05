@@ -58,7 +58,7 @@ const UserForm = () => {
 						className: "",
 						duration: 5000,
 						style: {
-							background: "#FA4C86",
+							background: "purple",
 							color: "#fff",
 						},
 
@@ -75,7 +75,7 @@ const UserForm = () => {
 				<div
 					className="container"
 					style={{
-						background: "#FA4C86",
+						background: "purple",
 						padding: "20px 20px",
 						borderRadius: "15px",
 					}}
@@ -97,7 +97,7 @@ const UserForm = () => {
 									}}
 									required
 								/>
-								<label className="input-label">Full name</label> 
+								<label className="input-label"> Full name</label> 
 							</div>
 							<div className="input">
 								<input
@@ -110,7 +110,7 @@ const UserForm = () => {
 									}}
 									required
 								/>
-								<label className="input-label">Age in years</label>
+								<label className="input-label"> Age in years</label>
 							</div>
 							<div className="input">
 								<input
@@ -121,7 +121,7 @@ const UserForm = () => {
 									className="input-field"
 									required
 								/>
-								<label className="input-label">Email Address</label>
+								<label className="input-label"> Email Address</label>
 							</div>
 							<div className="input">
 								<input
@@ -132,7 +132,7 @@ const UserForm = () => {
 									className="input-field"
 									required
 								/>
-								<label className="input-label">What's troubling you ?</label>
+								<label className="input-label"> What's troubling you ?</label>
 							</div>
 							<div className="input">
 								<input
@@ -143,7 +143,7 @@ const UserForm = () => {
 									className="input-field"
 									required
 								/>
-								<label className="input-label">Date</label>
+								<label className="input-label"> Date</label>
 							</div>
 							<div className="input">
 								<input
@@ -154,7 +154,7 @@ const UserForm = () => {
 									className="input-field"
 									required
 								/>
-								<label className="input-label">Time</label>
+								<label className="input-label"> Time</label>
 							</div>
 							<div className="action">
 								<button className="action-button" type="submit">
