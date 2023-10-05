@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Screens
 import Landing from "./screens/Landing.jsx";
 import Dashboard from "./components/dashboard/Dashboard.js";
-import VaccineTracker from "./components/Tracking/Vaccine.js";
+import VaccineTracker from "./components/Tracking/Vacc.js";
 import TrackPeriod2 from "./components/Period_Cycle/TrackPeriod2";
 import SignUp from "./components/login/signUp.jsx";
 import Login from "./components/login/Login.jsx";

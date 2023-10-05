@@ -99,8 +99,7 @@ table {
     margin: 0 auto; /* Center-align the table */
     border-collapse: collapse;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    right:400px;
+    
   }
   /* Updated Vacc.css */
 
@@ -133,3 +132,16 @@ table {
         padding-top: 40px;
         width:1500px; /* Add padding to the top of the table container */
       }
+
+      body {
+        overflow-x: hidden;
+      }
+
+.full
+{
+   
+}
+.selected-vaccines
+{
+    margin:50px;
+}
