@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import LineChart from './LineChart';
+import { Chart as ChartJS} from "chart.js/auto"
+import { data } from 'jquery';
 
 const Wrapper = styled.div`
   max-width: 800px;
@@ -53,8 +55,8 @@ const NutritionTrackerMom = () => {
     labels: ['Status'],
     datasets: [
       {
-        label: 'Status',
-        data: [Math.random() * 100], // Mock status data
+        label: 'the blue thing',
+        data: [], // Mock status data
         backgroundColor: 'rgba(75,192,192,0.4)',
         borderColor: 'rgba(75,192,192,1)',
         borderWidth: 1,
@@ -62,19 +64,44 @@ const NutritionTrackerMom = () => {
     ],
   });
 
+  // useEffect(() => {
+  //   // Update the chart data whenever the statusData or date changes
+  //   const updateChart = () => {
+  //     const chart = myChart.current; // Assuming you have a ref to your chart
+  //     if (chart) {
+  //       chart.data.labels = statusData.labels;
+  //       chart.data.datasets[0].data = statusData.datasets[0].data;
+  //       chart.update(); // Trigger chart update
+  //     }
+  //   };
+
+  //   updateChart();
+  // }, [statusData, date]);
+
+
   const handleSave = () => {
     // Mock logic to calculate status based on nutrition data
-    const newStatus = Math.random() * 100;
+    const newStatus = (calories + protein) / 2;
+  
+    // Create a copy of the existing data array and append the new value
+    const newData = [...statusData.datasets[0].data, newStatus];
+  
+    // Create a copy of the existing labels array and append the new date
+    const newLabels = [...statusData.labels, date];
+  
+    // Update the statusData state with the new data and labels
     setStatusData({
       ...statusData,
       datasets: [
         {
           ...statusData.datasets[0],
-          data: [newStatus],
+          data: newData,
         },
       ],
+      labels: newLabels,
     });
   };
+  
 
   return (
     <Wrapper>
@@ -97,7 +124,7 @@ const NutritionTrackerMom = () => {
           <TextInput
             type="number"
             value={calories}
-            onChange={(e) => setCalories(e.target.value)}
+            onChange={(e) => setCalories(parseInt(e.target.value))}
             placeholder="Enter calories"
           />
         </InputGroup>
@@ -109,7 +136,7 @@ const NutritionTrackerMom = () => {
           <TextInput
             type="number"
             value={protein}
-            onChange={(e) => setProtein(e.target.value)}
+            onChange={(e) => setProtein(parseInt(e.target.value))}
             placeholder="Enter protein grams"
           />
         </InputGroup>
