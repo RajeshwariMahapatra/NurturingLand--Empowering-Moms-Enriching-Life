@@ -116,41 +116,27 @@ This is our feature where the user can tracker the upcoming period perdictions a
 ---
 
 ## Dashboard
-This is the place where **Shewinner** can excess the extra features and can get all the cummilative features and feedback at one place only with just a single click.
+This is the place where user can excess the extra features and can get all the cummilative features and feedback at one place only with just a single click.
 
-![image](https://user-images.githubusercontent.com/86917304/211191115-933a9ca5-3c04-405e-b236-fab6d3bff685.png)
 
-## Posts
-This is the place where user can share their thoughts and daily experiences in the community for other pregnant ladies to know.
-
-<!-- ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161807.png) -->
-![Alt text](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161807.png "Optional Title")
-
+   - ### Posts
+  This is the place where user can share their thoughts and daily experiences in the community for other pregnant ladies to know.
 
    - ### Nearest Pharmacy
   This is will allow the user to get info about the nearest pharmacy as per his/her location.
   
-  ![image](https://user-images.githubusercontent.com/86917304/211191688-a7045374-617a-4bb3-9ddf-2cbe6a926da3.png)
   
    - ### Nearest Hospital
    This is will allow the user to get info about the nearest pharmacy as per his/her location.
    
-  ![image](https://user-images.githubusercontent.com/86917304/211191726-a64b5543-a594-4606-a2d8-577a5fdb28b0.png)
 
   - ### Nutrition Tracker
    This is will allow the user to get information about the daily nutrition level of mother and child. Mother can check their hydration level as well as if their food intake is healthy.Baby's health can be determined according to their current weight and height.
    
-  ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161105.png)
-
-  ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161335.png)
-
-  ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161446.png)
-  
+   
   - ### Setting Reminder
     From this feature user can set the reminder about the appointment or any other type of reminder and they will get the reminder via email registered with our platform.
-    
-    ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 160815.png)
-    
+        
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
