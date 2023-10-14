@@ -1,17 +1,17 @@
 <h1 align="center"><b>NurturingLand</b></h1>
 
 <div align="center">
-  <a id="top" href="https://shewin.netlify.app/" target="blank">
-    <img src="https://user-images.githubusercontent.com/86917304/189530487-4f2eba29-9268-4801-9f4f-b2a9b03948a1.png" width="100px" alt="">
+  <a id="top" href="https://github.com/RajeshwariMahapatra/NurturingLand--Empowering-Moms-Enriching-Life" target="blank">
+    <img src="https://github.com/RajeshwariMahapatra/NurturingLand--Empowering-Moms-Enriching-Life/blob/main/src/logo.png" width="100px" alt="">
   </a>
 
   <h3 align="center">NurturingLand - Empowering Moms, Enriching life</h3>
 
-  <p align="center">
+  <!-- <p align="center">
     <a href="https://shewin.netlify.app/" target="blank">Live Demo</a> |
     <a href="https://github.com/Sreetama2001/SheWins-Period_Helper/issues" target="blank">Report Bug</a> |
     <a href="https://github.com/Sreetama2001/SheWins-Period_Helper/issues" target="blank">Request Feature</a>
-  </p>
+  </p> -->
 </div>
 
 ---
@@ -67,11 +67,11 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Pranshu321/Placed.git
+   git clone https://github.com/RajeshwariMahapatra/NurturingLand--Empowering-Moms-Enriching-Life.git
    ```
 2. Now install all npm packages.
    ```sh
-    npm i 
+    npm install
    ```
    
 3. Now you have define own firebase project config at `firebase/firebaseconfig.js`.
