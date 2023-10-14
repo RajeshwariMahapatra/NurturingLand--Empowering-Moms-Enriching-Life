@@ -6,7 +6,7 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase";
 import { useNavigate } from "react-router-dom";
 // import { get } from "react-scroll/modules/mixins/scroller";
-const Blogs = () => {
+const Blogging = () => {
 	const navigate = useNavigate();
 	const [idi, setidi] = useState([]);
 	const [data, setdata] = useState([]);
@@ -72,4 +72,4 @@ const Blogs = () => {
 	);
 };
 
-export default Blogs;
+export default Blogging;

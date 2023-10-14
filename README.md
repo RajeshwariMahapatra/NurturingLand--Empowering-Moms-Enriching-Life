@@ -1,11 +1,11 @@
-<h1 align="center"><b>Shewin</b></h1>
+<h1 align="center"><b>NurturingLand</b></h1>
 
 <div align="center">
   <a id="top" href="https://shewin.netlify.app/" target="blank">
     <img src="https://user-images.githubusercontent.com/86917304/189530487-4f2eba29-9268-4801-9f4f-b2a9b03948a1.png" width="100px" alt="">
   </a>
 
-  <h3 align="center">Shewin - We Care She Wins</h3>
+  <h3 align="center">NurturingLand - Empowering Moms, Enriching life</h3>
 
   <p align="center">
     <a href="https://shewin.netlify.app/" target="blank">Live Demo</a> |
@@ -120,6 +120,11 @@ This is the place where **Shewinner** can excess the extra features and can get 
 
 ![image](https://user-images.githubusercontent.com/86917304/211191115-933a9ca5-3c04-405e-b236-fab6d3bff685.png)
 
+## Posts
+This is the place where user can share their thoughts and daily experiences in the community for other pregnant ladies to know.
+
+![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161807.png)
+
    - ### Nearest Pharmacy
   This is will allow the user to get info about the nearest pharmacy as per his/her location.
   
@@ -129,28 +134,22 @@ This is the place where **Shewinner** can excess the extra features and can get 
    This is will allow the user to get info about the nearest pharmacy as per his/her location.
    
   ![image](https://user-images.githubusercontent.com/86917304/211191726-a64b5543-a594-4606-a2d8-577a5fdb28b0.png)
+
+  - ### Nutrition Tracker
+   This is will allow the user to get information about the daily nutrition level of mother and child. Mother can check their hydration level as well as if their food intake is healthy.Baby's health can be determined according to their current weight and height.
+   
+  ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161105.png)
+
+  ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161335.png)
+
+  ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161446.png)
   
   - ### Setting Reminder
-    From this feature he or she can set the reminder about the appointment , period dates or any other type of reminder and they will get the reminder via email           registered with our platform.
+    From this feature user can set the reminder about the appointment or any other type of reminder and they will get the reminder via email registered with our platform.
     
-    ![image](https://user-images.githubusercontent.com/86917304/211191954-af71efc2-0682-4102-9f09-def32fe8f3d3.png)
+    ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 160815.png)
     
-  - ### Blogs Publish
-    Through this user can published their blogs to our platform and also track the blog published by them on the dashboard only.
-    
-    ![image](https://user-images.githubusercontent.com/86917304/211191996-0baa8eef-e5f2-4e07-831d-c97a1e40d05a.png)
-    
-      - Blog Published by user
-        Below card will show all the blogs published by the user
-        
-        ![image](https://user-images.githubusercontent.com/86917304/211192155-8dad7292-36df-4efc-8c8e-516881732e2b.png)
-
-### Phone View
-- We going one step ahead we convert out website into the **PWA**, so that our user experience in mobile phones will be top notch and hence he/she can contribute as well as get extraodinary experience through our platform. 
-
-![image](https://user-images.githubusercontent.com/86917304/211190064-db56b99d-9fe6-47df-9e20-0a10db3c8c94.png)
-
-
+ 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
@@ -170,22 +169,13 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- CONTACT -->
-## Contact
-
-Team Name - Hackit
-
-Leader - [Sreetama](mailto:fool100abc@gmail.com)
-
-Project Link: [Shewin](https://shewin.netlify.app)
-
-Video Link : [Shewin Demo Video](https://www.loom.com/share/462c7f86c84c499fa979a25336036709)
 
 ## Team Members: 
 
-- [Sreetama Ghosh Hazar](https://github.com/Sreetama2001)
-- [Pranshu Jain](https://github.com/Pranshu321)
-- [Mohammad Sami Shaikh](https://github.com/MSamiDev)
+- [Rajeshwari Mahapatra](https://github.com/RajeshwariMahapatra)
+- [Manthan Parsekar](https://github.com/Manthan997)
+- [Asmi Gawade](https://github.com/asmigawade)
+- [Amisha Shahi](https://github.com/Amisha-05)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
