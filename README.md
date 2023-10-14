@@ -123,7 +123,9 @@ This is the place where **Shewinner** can excess the extra features and can get 
 ## Posts
 This is the place where user can share their thoughts and daily experiences in the community for other pregnant ladies to know.
 
-![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161807.png)
+<!-- ![image](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161807.png) -->
+![Alt text](C:\Users\ranji\OneDrive\Pictures\Screenshots\Screenshot 2023-10-14 161807.png "Optional Title")
+
 
    - ### Nearest Pharmacy
   This is will allow the user to get info about the nearest pharmacy as per his/her location.
