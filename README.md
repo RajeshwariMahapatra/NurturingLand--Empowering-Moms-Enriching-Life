@@ -17,7 +17,7 @@
 ---
 
 ## The motivation:
-"Nurture-Land" is a website born out of a deep concern for the health and well-being of pregnant women. It serves as a platform to maintain comprehensive health records for expectant mothers while providing a range of critical services. Our motivation stems from a desire to improve healthcare accessibility, personalized care, and access to reliable information for pregnant women. Nurture-Land fosters a supportive community, offers remote monitoring options, prioritizes data security, and extends support into the postnatal period. Ultimately, the aim is to empower pregnant women to have healthier pregnancies, regardless of their location or background, by centralizing their health records and providing a wealth of resources and assistance.
+"NurturingLand" is a website born out of a deep concern for the health and well-being of pregnant women. It serves as a platform to maintain comprehensive health records for expectant mothers while providing a range of critical services. Our motivation stems from a desire to improve healthcare accessibility, personalized care, and access to reliable information for pregnant women. Nurture-Land fosters a supportive community, offers remote monitoring options, prioritizes data security, and extends support into the postnatal period. Ultimately, the aim is to empower pregnant women to have healthier pregnancies, regardless of their location or background, by centralizing their health records and providing a wealth of resources and assistance.
 
 <!-- <img
   src=""
@@ -28,16 +28,6 @@
   <p align="right">(<a href="#top">back to top</a>)</p>
   
  ---
-
-<!-- ## How it works :
-
-  We have here to modernized our women healthcare system by providing the personalized feedbacks, analysis, mood tracking, period cycle traking to  women, who hesitate because of their insecurities and long run social stigma.
-  Through our platform she can `Track her Period Cycle`,  Get her `Mood Analysis` and she will also get to access the nearest hospitals and gynaecologists for their medical problems. Through our platform only user can `Schedule Appointments` with doctors and get consultancy at home only.
-  We also have the blog sections where the **Shewinners** can write the blogs to aware the world about different streotypes, Through this section we are giving a platform to showcase their knowledge and help each girl to contribute in a constructive manner in the society.
-
-<p align="right">(<a href="#top">back to top</a>)</p> -->
-
----
 
 ## Technologies Used :
 
